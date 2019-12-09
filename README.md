@@ -11,7 +11,7 @@ Implement a REST API that shall be used internally, so no authentication is need
 
 ## Installation
 - Clone repository
-- $ git clone https://github.com/btsema/BankTestApp.git
+- $ git clone https://github.com/btsema/BankingTestApp.git
 - Run in your terminal
 - $ composer install
 - $ php artisan key:generate
@@ -58,12 +58,11 @@ http://your-local-domain/home
 - Database migration schema (users table, countries table, transactions table etc.)
 - Creating models (User(Customer), Transaction etc.)
 - SOLID principles
-- Laravel Custom Logger (app/Utilities/CustomLogger))
 - Business Logic folder(app\Services)
 - Implementing Query Object (we could extract to the model - query scope, create a repository, or we could make a single-use query class as OptimisticLockingTransaction) to perform our complex query operations that can be changed often 
-<img src="https://raw.githubusercontent.com/btsema/BankTestApp/master/query.png"/>
 - Making WeeklyReport service (implementing some ReportService interface) for the business logic or business layer of the application
 - Implementing Pessimistic vs Optimistic Locking ( https://medium.com/snapptech/pessimistic-vs-optimistic-locking-in-laravel-264ec0b1ba2 )
+- Laravel Custom Logger (app/Utilities/CustomLogger))
 - Tests (Feature test - UpdateUserInSameTimeTest folder(tests/Feature), Unit test - MakeTransactionTest folder(tests/Feature))
 - Database Factory pattern seeders (UsersSeeder, CountrySeeder, TransactionsSeeder)
 - barryvdh/laravel-debugbar to manage and test all queries

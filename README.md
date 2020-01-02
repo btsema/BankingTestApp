@@ -1,6 +1,3 @@
-## Introduction
-Implement a REST API that shall be used internally, so no authentication is needed. Format shall be JSON. No front - end or graphical interface is needed.
-
 ## Dependency
 
 - PHP 7.2
